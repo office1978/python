@@ -6,7 +6,7 @@ with open("C:\\Users\\admin\\Desktop\\hosts.txt") as file:
         d[key] = value
         
 print (d)
-file.close()
+
 
 f = open ("C:\\Users\\admin\\Desktop\\hosts.txt", "a")
 l = "\n"+input("Введите ip host: ")
